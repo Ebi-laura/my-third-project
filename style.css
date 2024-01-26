@@ -1,0 +1,186 @@
+body{
+    background-color:hsl(210, 46%, 95%);
+  padding: 8%;
+    width: 100%;
+}
+.parent{
+    max-width: 1440px;
+    width: 80%;
+    height: 100%;
+    justify-content: center;
+    display: grid;
+    align-content: center;
+    gap: 20px;
+    }
+    .part1{
+        grid-column: 1 / span 4;
+        background-color: hsl(263, 55%, 52%);
+        border-radius: 3%;
+        color: hsl(0, 0%, 100%);
+        background-image: url(bg-pattern-quotation.svg);
+        background-repeat: no-repeat;
+        background-position: 350px 0;
+        padding-left: 20px;
+    }
+    .part1 img{
+     border-radius: 50%;
+    }
+    .part1 .pic{
+        float: left;  
+    }
+    .part1 .first{
+        color: hsla(0, 0%, 100%, 0.5);
+    }
+  .part1 .namepar1{
+    padding-left: 75px;
+    padding-top: 10px;
+    font-size: 13px;
+  }
+  .part1 .writeup{ 
+    font-size: 19px;
+}
+.part1 .writeup2{
+    color: hsla(0, 0%, 100%, 0.7); 
+    padding-right: 20px;
+    font-size: 13px;
+}
+.part2{
+  background-color:  hsl(217, 19%, 35%);
+  border-radius: 3%;
+  padding-left: 20px;
+  color: hsl(0, 0%, 100%);
+}   
+.part2 img{
+    border-radius: 50%;
+   }
+.part2 .pic2{
+    float: left;  
+}
+.part2 .second{
+    color: hsla(0, 0%, 100%, 0.5);
+}
+.part2 .namepar2{
+padding-left: 75px;
+padding-top: 10px;
+font-size: 13px;
+}
+.part2 .writeup3{ 
+font-size: 19px;
+}
+.part2 .writeup4{
+color: hsla(0, 0%, 100%, 0.7); 
+font-size: 13px;
+padding-right: 20px;
+}  
+.part3{
+  grid-area: 1/ 6  /3/ 6 ;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 3%;
+  padding-left: 20px;
+  color: hsl(0, 0%, 0%);
+}
+.part3 img{
+  border-radius: 50%;
+ }
+ .part3 .pic3{
+    float: left;  
+}
+.part3 .third{
+    color: hsla(0, 0%, 0%, 0.5);
+}
+.part3 .namepar3{
+    padding-left: 75px;
+    padding-top: 10px;
+    font-size: 13px;
+}
+.part3 .writeup5{ 
+    font-size: 19px;
+}
+.part3 .writeup6{
+    color: hsla(0, 0%, 0%, 0.7); 
+    font-size: 13px;
+    padding-right: 20px;
+    }
+
+.part4{
+  grid-area: 2/ 1 / 2/ 1 ;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 3%; 
+  color: hsl(0, 0%, 0%);
+  padding-left: 20px;
+}
+ .part4 img{
+ border-radius: 50%;
+ }
+.part4 .pic4{
+      float: left;  
+  }
+  .part4 .fourth{
+      color: hsla(0, 0%, 0%, 0.5);
+  }
+.part4 .namepar4{
+      padding-left: 75px;
+      padding-top: 10px;
+      font-size: 13px;
+  }
+  .part4 .writeup7{ 
+      font-size: 19px;
+  }
+.part4 .writeup8{
+      color: hsla(0, 0%, 0%, 0.7); 
+      font-size: 13px;
+      padding-right: 20px;
+ }
+
+.part5{
+  grid-column:2/ span 4; 
+  background-color:  hsl(219, 29%, 14%);
+  border-radius: 3%;
+  padding-left: 20px;
+  color: hsl(0, 0%, 100%);
+ }
+ .part5 img{
+ border-radius: 50%;
+   }
+ .part5 .pic5{
+ float: left;  
+}
+.part5 .fifth{
+color: hsla(0, 0%, 100%, 0.5);
+}
+.part5 .namepar5{
+ padding-left: 75px;
+ padding-top: 10px;
+ font-size: 13px;
+    }
+.part5 .writeup9{ 
+font-size: 19px;
+ }
+ .part5 .writeup10{
+ color: hsla(0, 0%, 100%, 0.7); 
+ font-size: 13px;
+    }
+
+footer{
+padding-left:15% ;
+padding-top: 1%;
+color: blue;
+font-size: 20px;
+font-style: italic;
+}
+@media screen and (max-width:992px)  {
+    .parent{
+      display: block;
+    }
+    body{
+      background-color:hsl(210, 46%, 95%);
+      width: 100%;
+  }
+    footer{
+      padding-left:1% ;
+      padding-top: 1%;
+      color:red;
+      font-size: 16px;
+      font-style: italic;
+      }
+}
